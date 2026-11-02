@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.theluckystrike/car-loan-interest-deduction-calculator-mcp",
+  "title": "Car Loan Interest Deduction Calculator",
+  "description": "2025-2028 car loan interest deduction, SALT cap, child tax credit and 2026 brackets (OBBBA) from IRS sources.",
+  "version": "1.0.0",
+  "websiteUrl": "https://taxbreakcalc.com",
+  "repository": {
+    "url": "https://github.com/theluckystrike/car-loan-interest-deduction-calculator-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://car-loan-interest-deduction-calculator-mcp.lipmichal.workers.dev/mcp"
+    }
+  ]
+}
